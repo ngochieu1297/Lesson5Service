@@ -3,12 +3,12 @@ package com.example.admin.lesson5service;
 public class Song {
     private String mName;
     private String mArtist;
-    private int mResIđ;
+    private int mResId;
 
-    public Song(String name, String artist, int resIđ) {
+    public Song(String name, String artist, int resId) {
         mName = name;
         mArtist = artist;
-        mResIđ = resIđ;
+        mResId = resId;
     }
 
     public String getName() {
@@ -23,7 +23,7 @@ public class Song {
         return mArtist;
     }
 
-    public int getFile() {
-        return mResIđ;
+    public int getResId() {
+        return mResId;
     }
 }
